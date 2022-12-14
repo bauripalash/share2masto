@@ -1,1 +1,1 @@
-/// <reference types="vite/client" />
+/// <reference types="../node_modules/vite/client.d.ts" />

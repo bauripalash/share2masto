@@ -1,21 +1,30 @@
 import './style.css'
-import { setupCounter } from './counter'
+import { setupSearch} from './instance_search'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+const params = new URLSearchParams(window.location.search)
+const edit_text = 	document.querySelector<HTMLTextAreaElement>("#share_text");
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+function getUrl(){
+	return	document.querySelector<HTMLInputElement>("#instance")!.value;
+}
+
+let share_text : string;
+
+if (params.has("text")) {
+    share_text = params.get("text")!;
+	edit_text!.value = share_text;
+}
+
+setupSearch(document.querySelector<HTMLButtonElement>('#check_button')!)
+
+document.querySelector<HTMLButtonElement>("#share_button")!.onclick = function(){
+	prepareShare()
+}
+
+
+
+function prepareShare(){
+//	window.open(`https://${instance_url}/?text='+encodeURIComponent()+'&title='+encodeURIComponent(document.title)`,'das',location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550);
+		
+	window.open(`https://${getUrl()}/share/?text=${edit_text!.value}` , "_blank")
+}

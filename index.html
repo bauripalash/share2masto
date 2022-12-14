@@ -4,10 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>~share2masto~ by @bauripalash</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+		<div class="header">
+			<h1>~share2masto~</h1>
+		</div>
+      <input type="text" id="instance" list="instance_list">
+		<datalist id="instance_list">
+		</datalist>
+	  
+      <button id="check_button">Check Instance</button>
+	  
+	  <div id="instance_card"></div>
+
+		<div class="share_area">
+			<textarea id="share_text"></textarea>
+			<button id="share_button">Share</button>
+		</div>
+
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
