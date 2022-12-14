@@ -65,7 +65,7 @@ export function setupSearch(element: HTMLButtonElement) {
 	const ielm = document.querySelector<HTMLInputElement>("#instance");
 
  	
-	let datalist_entry : string;
+	let datalist_entry  = "";
 
 	IL.forEach((item : string)=> {
 		datalist_entry += `<option value=${item}/>`	
