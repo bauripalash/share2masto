@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg4793"
+    sodipodi:docname="New document 2"
+    viewBox="0 0 248.19 212.54"
+    version="1.1"
+    inkscape:version="0.48.1 "
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="-8"
+      fit-margin-left="0"
+      pagecolor="#ffffff"
+      fit-margin-top="0"
+      inkscape:window-maximized="0"
+      inkscape:zoom="1"
+      inkscape:window-x="-8"
+      inkscape:window-height="988"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="154.4889"
+      inkscape:cy="99.983521"
+      fit-margin-right="0"
+      fit-margin-bottom="0"
+      inkscape:window-width="1680"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-387.33 -540.38)"
+    >
+    <path
+        id="path8490"
+        d="m577.13 540.39c-0.6771 0.015-1.3481 0.044-2.0312 0.094l-151.03 11.062c-21.862 1.6007-38.226 20.579-36.625 42.438l6.25 85.469c1.0931 14.928 10.283 27.294 22.969 33.125l10.813 5.75c3.2117 1.9868 6.7441 3.4683 10.5 4.4062l1.5624 21.625 9.4376 8.5625s27.906-21.331 39.875-30.469l110.78-3.8126c20.565-0.7076 36.583-17.841 35.875-38.406l-2.9688-85.656c-0.3164-9.1984-3.8975-17.465-9.625-23.75l-0.125-0.125c-1.0543-1.146-9.2408-10.481-14.031-15.688-0.026-0.028-0.068-0.066-0.094-0.094-7.4927-9.1453-18.942-14.815-31.531-14.531zm0.125 4.9688c18.41-0.4229 33.952 13.542 35.312 32.125l6.25 85.5c1.4046 19.183-12.846 35.658-32.031 37.062l-110.56 8.0937-0.7813 0.063-0.625 0.5-31 25.625-1.7187-23.688-6.3438 0.4688c-19.186 1.4047-35.658-12.814-37.062-32l-6.25-85.5c-1.4048-19.186 12.817-35.689 32-37.094l151.03-11.062c0.5994-0.044 1.1873-0.08 1.7812-0.094z"
+        sodipodi:nodetypes="cccccccccccsccccccccccccccccccccsc"
+        style="color:#000000;fill:#4e5562"
+        inkscape:connector-curvature="0"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Talk Bubble</dc:title
+        >
+        <dc:date
+          >2011-08-08T04:22:26</dc:date
+        >
+        <dc:description
+          >Talk Bubble</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/154093/talk-bubble-by-printerkiller</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >PrinterKiller</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >talk bubble text comics 3d</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
