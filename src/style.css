@@ -66,12 +66,13 @@ body{
 	margin-bottom: 10px;
 }
 
-#share_button{
+#share_button , #share_button_webshare{
 	background: var(--primary);
   color: #fff;
   cursor: pointer;
 border: 1px solid transparent;
 font-size: 18px;
+margin: 5px;
 }
 
 .header{

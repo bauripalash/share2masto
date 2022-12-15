@@ -13,6 +13,9 @@ let share_text : string;
 let default_instace : string;
 let share_url : string;
 
+
+
+
 if (params.has("text")) {
     share_text = params.get("text")!;
 	edit_text!.value = share_text;
@@ -34,11 +37,16 @@ function getShareText(){
 
 
 function setupWebShare(){
-	if (navigator.canShare != undefined){
-	if (navigator.canShare()){
+	if (navigator.share != undefined){
 		const share_area = document.querySelector("#share_area");
-		share_area!.innerHTML += `<button id="share_button" onclick="prepareShare(true)">Share via app</button>`
-	}
+		share_area!.innerHTML += `<button id="share_button_webshare">Share via app</button>`
+		document.querySelector<HTMLButtonElement>("#share_button_webshare")!.onclick = async function(){
+			await navigator.share({
+				url : share_url,
+				text : getShareText(),
+				title : "_"
+			});
+		}
 	}
 	
 }
@@ -48,20 +56,7 @@ setupSearch(document.querySelector<HTMLButtonElement>('#check_button')!)
 setupWebShare()
 
 document.querySelector<HTMLButtonElement>("#share_button")!.onclick = function(){
-	prepareShare(false)
-}
-
-
-
-function prepareShare(webshare : boolean){
-//	window.open(`https://${instance_url}/?text='+encodeURIComponent()+'&title='+encodeURIComponent(document.title)`,'das',location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550);
-	if (webshare){
-		navigator.share({
-			url : share_url,
-			text : share_text,
-			title : ""
-		});
-	}else{	
+	
 	window.open(`https://${getUrl()}/share/?text=${getShareText()}` , "_blank")
-	}
 }
+

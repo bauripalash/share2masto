@@ -1,3 +1,3 @@
 export default{
-	base : "/share2masto/"
+	base : "/share2masto"
 }
