@@ -7,5 +7,5 @@ frontend.
 To Use this in your blog or anything use this URL Scheme :
 
 ```javascript
-https://<share2masto>/?title=<Your Text>
+https://<share2masto>/?text=<Your Text>&link=<Any Link>&default=<Default Instance Without **http://**>
 ```
