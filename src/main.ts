@@ -56,7 +56,11 @@ document.querySelector<HTMLButtonElement>("#share_button")!.onclick = function()
 function prepareShare(webshare : boolean){
 //	window.open(`https://${instance_url}/?text='+encodeURIComponent()+'&title='+encodeURIComponent(document.title)`,'das',location=no,links=no,scrollbars=no,toolbar=no,width=620,height=550);
 	if (webshare){
-		navigator.share(share_text)
+		navigator.share({
+			url : share_url,
+			text : share_text,
+			title : ""
+		});
 	}else{	
 	window.open(`https://${getUrl()}/share/?text=${getShareText()}` , "_blank")
 	}
