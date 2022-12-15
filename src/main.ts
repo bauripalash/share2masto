@@ -1,6 +1,5 @@
 import "./style.css";
-import { setupSearch } from "./instance_search";
-import { invalidURL } from "./instance_search.ts";
+import { setupSearch , invalidURL } from "./instance_search";
 
 const params = new URLSearchParams(window.location.search);
 const edit_text = document.querySelector<HTMLTextAreaElement>("#share_text");
